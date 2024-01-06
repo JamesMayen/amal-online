@@ -1,13 +1,11 @@
-import FeatureSection from "./FeatureSection";
 import Header from "./Header";
-import ScholarshipSection from "./ScholarshipSection";
+import RelatedBookSection from "./RelatedBookSection";
 
 export default function HomePage() {
   return (
     <div>
       <Header />
-      <FeatureSection />
-      <ScholarshipSection />
+      <RelatedBookSection />
     </div>
-  )
+  );
 }

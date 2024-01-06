@@ -1,6 +1,7 @@
 import { FaFileDownload, FaSearch } from "react-icons/fa";
 import { FiChevronDown, FiChevronRight } from "react-icons/fi";
-export default function LearningMaterials() {
+
+export default function BooksPage() {
   return (
     <div className="md:px-[5%] px-3">
       <div className="flex justify-between items-center my-4">
@@ -42,7 +43,6 @@ export default function LearningMaterials() {
                 <img src={book.image} alt="" />
               </div>
               <div className="md:p-3 p-2">
-                {/* <h3 className="md:font-semibold">{book.title}</h3> */}
                 <p className="md:font-base font- line-clamp-2">
                   {book.description}
                 </p>
